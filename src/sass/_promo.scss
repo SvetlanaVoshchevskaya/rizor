@@ -1,0 +1,42 @@
+.promo {
+  padding: 0 0 93px;
+  background: url('../images/promo-info-img.png') left bottom no-repeat;
+  height: 943px;
+  position: relative;
+
+  &__info {
+    width: 654px;
+    position: relative;
+    z-index: 1;
+  }
+
+  &__title {
+    padding-top: 200px;
+    font-family: 'Rubik Mono One';
+    font-size: 80px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 6.4px;
+    margin-bottom: 32px;
+
+    span {
+      &::before {
+        content: url('../images/icons/video.png');
+        display: block;
+        position: absolute;
+        right: 51%;
+        top: 30%;
+      }
+    }
+  }
+
+  &__subtitle {
+    width: 360px;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1.6px;
+  }
+}

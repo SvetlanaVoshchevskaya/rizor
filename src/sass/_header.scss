@@ -1,0 +1,42 @@
+.header {
+  margin-top: 30px;
+
+  &__nav {
+    display: flex;
+  }
+
+  &__link {
+    justify-content: flex-start;
+    margin-right: 525px;
+  }
+
+  &__nav-list {
+    margin: 0;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    padding-left: 0;
+    width: 488px;
+    align-items: center;
+  }
+
+  &__nav-link {
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #000000;
+    text-decoration: none;
+
+    &_active {
+      &::after {
+        content: '';
+        display: block;
+        width: 21px;
+        height: 2px;
+        border-bottom: none;
+        background-color: #3a30f8;
+      }
+    }
+  }
+}

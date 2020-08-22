@@ -1,0 +1,31 @@
+.advantage {
+  padding: 5px 0 85px 0;
+
+  &__video {
+    background: url('../images/advanteges-video.png') left no-repeat;
+    width: 745px;
+    height: 750px;
+    margin-top: 102px;
+    position: relative;
+  }
+
+  &__controls-panel {
+    position: absolute;
+    display: block;
+    top: 50%;
+    right: 37%;
+    transform: translate(-50%, -50%);
+  }
+  
+  &__wrapper {
+  }
+
+  &__title {
+    color: #3a30f8;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 80px;
+    text-transform: uppercase;
+  }
+}
